@@ -11,7 +11,7 @@ load_dotenv()
 os.environ["LANGCHAIN_TRACING_V2"] = "true" #configures environment variables to tell langchain to do tracing
 os.environ["LANGCHAIN_API_KEY"] = "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" # langchain API key which allows us to access AI model
 
-#Prompt Template - gives prompt to the system in appropriate syntaz
+#prompt Template - gives prompt to the system in appropriate syntaz
 
 prompt = ChatPromptTemplate.from_messages   (
     [
