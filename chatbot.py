@@ -1,6 +1,6 @@
-from langchain_core.prompts import ChatPromptTemplate # stores prompt template to give prompt to system according to syntax
-from langchain_core.output_parsers import StrOutputParser #default output parser for any output
-from langchain_community.llms import Ollama #allows us to use third party Ollama to access AI model
+from langchain_core.prompts import ChatPromptTemplate # stores prompt template to give prompt to system (according to syntax)
+from langchain_core.output_parsers import StrOutputParser # default output parser for any output
+from langchain_community.llms import Ollama # allows us to use third party Ollama to access AI model
 
 import streamlit as st # for streamlit usage
 import os # provides functions for interacting with operating system
