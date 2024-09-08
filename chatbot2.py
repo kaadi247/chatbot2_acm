@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate # allows us to give prompt to syste
 
 st.title("Hugging Face Chatbot") # title on streamlit
 
-HUGGINGFACE_API_KEY = "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" #api key from huggingface
+HUGGINGFACE_API_KEY = "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" #api key from huggingface
 
 model_name = "mistralai/Mistral-7B-Instruct-v0.3" #ai model used
 
